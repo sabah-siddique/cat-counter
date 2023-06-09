@@ -1,14 +1,14 @@
 body {
-    background-image: url("cats.jpeg");
+    background-image: url("v567-n-50-doodles.jpg");
     background-size: cover;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-weight: bold;
     text-align: center;
 }
 
 .counter {
     margin: 0 auto;
-    border: solid #FF5733 2px;
+    border: solid beige 2px;
     background-color: white;
     opacity: 0.9;
 }
@@ -42,3 +42,9 @@ button {
     background: #FF3377;
 }
 
+.photo-cred {
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    font: bolder;
+}
