@@ -1,16 +1,18 @@
 body {
     background-image: url("v567-n-50-doodles.jpg");
     background-size: cover;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     font-weight: bold;
     text-align: center;
 }
 
 .counter {
-    margin: 0 auto;
+    margin: 60px auto 20px auto;
     border: solid beige 2px;
     background-color: white;
     opacity: 0.9;
+    width: 400px;
+    color: #404040;
 }
 
 h1 {
@@ -42,9 +44,38 @@ button {
     background: #FF3377;
 }
 
-.photo-cred {
-    font-size: 30px;
-    text-align: center;
-    color: white;
-    font: bolder;
+#save-el {
+    padding-left: 5px;
+    padding-right: 5px;
 }
+
+.photo-cred {
+    margin: 0 auto;
+    font-size: 15px;
+    text-align: center;
+    color: #505050;
+}
+
+/* unvisited link */
+a:link {
+    color: red;
+  }
+  
+  /* visited link */
+  a:visited {
+    color: purple;
+  }
+  
+  /* mouse over link */
+  a:hover {
+    color: purple;
+  }
+  
+  /* selected link */
+  a:active {
+    color: purple;
+  }
+
+a:link, a:visited, a:hover, a:active {
+    text-decoration: none;
+  }
